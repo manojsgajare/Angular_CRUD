@@ -1,0 +1,55 @@
+<div class="container col-md-4" >
+  <legend>Create Item</legend>
+  <form>
+    <div class="mb-3">
+      <label for="txtname">Name</label>
+      <input
+        type="text"
+        class="form-control"
+        id="txtname"
+        aria-describedby="emailHelp"
+        placeholder="Enter name"
+        name="name"
+        [(ngModel)] = "fruitForm.name"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="txtcolor">Color</label>
+      <input
+        type="text"
+        class="form-control"
+        id="txtcolor"
+        aria-describedby="emailHelp"
+        placeholder="Enter Color"
+        name="color"
+        [(ngModel)] = "fruitForm.color"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="txtquantity">Quantity</label>
+      <input
+        type="number"
+        class="form-control"
+        id="txtquantity"
+        aria-describedby="emailHelp"
+        placeholder="Enter Quantity"
+        name="quantity"
+        [(ngModel)] = "fruitForm.quantity"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="txtprice">Price</label>
+      <input
+        type="number"
+        class="form-control"
+        id="txtprice"
+        aria-describedby="emailHelp"
+        placeholder="Enter Price"
+        name="price"
+        [(ngModel)] = "fruitForm.price"
+      />
+    </div>
+
+    <button type="button" (click)="create()" class="btn btn-primary">Submit</button>
+  </form>
+</div>

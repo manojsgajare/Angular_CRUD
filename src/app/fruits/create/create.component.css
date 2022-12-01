@@ -1,0 +1,14 @@
+.container{
+   
+    background-color: rgb(76, 70, 239);
+    margin-top: 3%;
+    padding: 2% 2%;
+    
+}
+
+legend{
+    font-weight: bold;
+    font-size:50px ;
+    margin-bottom: 2%;
+    color: white;
+}

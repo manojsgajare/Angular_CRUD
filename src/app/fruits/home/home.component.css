@@ -1,0 +1,19 @@
+.container{
+    margin-top: 5%;
+    background-color: rgb(157, 168, 168);
+}
+
+.btn {
+   align-items: center;
+   
+}
+.createButton{
+    padding: auto;
+    margin-left: 45%;
+    margin-top: 1%;
+}
+
+.table{
+    margin-top: 5%;
+}
+
